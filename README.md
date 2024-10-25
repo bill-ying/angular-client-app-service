@@ -6,6 +6,7 @@ This is a proof of concept (POC) project for building and deploying an Angular a
 - Azure App Service resource (Linux with Node LTS runtime stack).
 - Azure DevOps account with organization, project, pipeline, and service connection configured.
 - GitHub action configured.
+- The RESTful API server called by the application.
 
 # Calling REST API Server with Redux (Ngrx Store)
 Redux (ngrx store) is used by the Angular client to call REST API server.  Please ensure following packages are installed in Angular local environment:
@@ -15,8 +16,8 @@ Redux (ngrx store) is used by the Angular client to call REST API server.  Pleas
   
 Also ensure to replace with your own REST API server URL in the effect.'
 
-# Functionality of the application
-As a Proof of Concept (POC), this application demonstrates the deployment process to Azure. Its core functionality revolves around managing virtual machines (VMs) within an Azure Virtual Machine Scale Set (VMSS). Specifically, it enables users to:
+# Functionality of the application (Redux explanation)
+As a Proof of Concept (POC), the main purpose of this project is demonstrating the deployment process to Azure. It also showcases the management of virtual machines (VMs) within an Azure Virtual Machine Scale Set (VMSS) using Redux. Specifically, it enables users to:
 
 - Check VM Status: Query the VMSS to retrieve the current status of all its constituent VMs.
 - Power On VMs: Initiate a power-on operation for all VMs in the VMSS.
