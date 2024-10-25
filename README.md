@@ -5,6 +5,7 @@ This is a proof of concept (POC) project for building and deploying an Angular a
 - Azure subscription and resource group.
 - Azure App Service resource (Linux with Node LTS runtime stack).
 - Azure DevOps account with organization, project, pipeline, and service connection configured.
+- GitHub action configured.
 
 # Calling REST API Server with Redux (Ngrx Store)
 Redux (ngrx store) is used by the Angular client to call REST API server.  Please ensure following packages are installed in Angular local environment:
